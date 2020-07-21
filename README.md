@@ -1,5 +1,7 @@
 # MathGame
 SEG 2105 Final Project
+Samuel Gilroy
+300060356
 
 Ran on the Pixel 3a XL
 Creation of basic Math Game for final project of the course.
