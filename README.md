@@ -3,7 +3,7 @@ SEG 2105 Final Project
 Samuel Gilroy
 300060356
 
-Ran on the Pixel 3a XL
+Ran on the Pixel 3a XL thorugh Android Studio.
 Creation of basic Math Game for final project of the course.
 Based loosely on the groundworks of the calculator app.
 Asks random math questions (addition,subtraction,multiplication,modular division)
