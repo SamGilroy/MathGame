@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         question.setText("Your question is: ");
         rand_num1 = rand.nextInt(101);
         rand_num2 = rand.nextInt(101);
-        while(rand_func == 1 && rand_num1 < rand_num2){
+        while(rand_func == 1 && rand_num1 < rand_num2){//prevents negatives
                 rand_num1 = rand.nextInt(101);
                 rand_num2 = rand.nextInt(101);
         }
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                 question.setText("Your question is: ");
                 rand_num1 = rand.nextInt(101);
                 rand_num2 = rand.nextInt(101);
-                while(rand_func == 1 && rand_num1 < rand_num2){
+                while(rand_func == 1 && rand_num1 < rand_num2){//prevents negatives
                     rand_num1 = rand.nextInt(101);
                     rand_num2 = rand.nextInt(101);
                 }
@@ -161,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        buttonEnter.setOnClickListener(new View.OnClickListener() {
+        buttonEnter.setOnClickListener(new View.OnClickListener() {//checks each case if input matches answer
             @Override
             public void onClick(View v) {
                 input = Integer.parseInt(edttxt.getText()+"");
