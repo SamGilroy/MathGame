@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         }
         question.setText(question.getText() + Integer.toString(rand_num1) + " " + functions[rand_func] + " " + Integer.toString(rand_num2));
 
-        buttonQ.setOnClickListener(new View.OnClickListener() {
+        buttonQ.setOnClickListener(new View.OnClickListener() {//creates a random generated question 
             @Override
             public void onClick(View v) {
                 Random rand = new Random();
