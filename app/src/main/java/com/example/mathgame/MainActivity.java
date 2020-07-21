@@ -1,3 +1,6 @@
+//Samuel Gilroy 300060356
+//Final Assignment SEG 2105 Summer 2020
+
 package com.example.mathgame;
 
 import androidx.appcompat.app.AppCompatActivity;
